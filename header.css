@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  height: 56px;
+  margin-left: -7px;
+  margin-right: -7px;
+  margin-top: -9px;
+}
+
+.empty {
+  margin-left: 3px;
+  margin-top: 3px;
+  display: flex;
+  flex: 1;
+
+  
+}
+.not-empty {
+top: 2px;
+display: flex;
+flex: 1;
+justify-content: right;
+align-items: center;
+
+}
+.gmail,
+.image,
+.icon-1,
+.icon-2 {
+  margin-right: 36px;
+  font-weight: bold;
+  color: white;
+}
+.gmail-1,
+.image-1,
+.icon-1 {
+  color: white;
+  transition: 0.15s;
+  background-color: none;
+  text-decoration: none;
+}
+.gmail :hover,
+.image :hover {
+  box-shadow:    2px 2px 20px rgba(0, 0, 0, 0.15);
+  text-decoration: underline;
+}
+.icon-1-2 {
+  max-width: 36px;
+  border-radius: 16px;
+
+}
+.icon-1 :hover,
+.icon-2 :hover {
+  box-shadow:    2px 2px 20px rgba(0, 0, 0, 0.15);
+}
+
+.icon-2-2 {
+  max-width: 46px;
+}
